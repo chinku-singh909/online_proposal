@@ -4,28 +4,63 @@
   <meta charset="UTF-8">
   <title>love proposal</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    h1 { 
+      text-align: center;
+      color: rgb(187, 64, 131);
+    }
 
+    .social-icons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      gap: 15px;
+      z-index: 9999;
+    }
+
+    .social-icons a {
+      width: 45px;
+      height: 45px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      background-color: #ffffff10;
+    }
+
+    .social-icons a.instagram:hover {
+      background-color: #E1306C;
+    }
+
+    .social-icons a.linkedin:hover {
+      background-color: #0077B5;
+    }
+
+    .social-icons svg {
+      width: 22px;
+      height: 22px;
+      fill: white;
+    }
+  </style>
 </head>
 <body>
-	<style>
-		h1 {text-align: center;}
-		h1{color: rgb(187, 64, 131);}
-                                                                                                                                       		</style> <h1>🌷🌸🎀</h1>
-		
-<!-- partial:index.partial.html -->
 
-<!-- partial:index.partial.html -->
+<h1>🌷🌸🎀</h1>
 
-
-Follow me on
-Instagram: https://www.instagram.com/chinku4841
-linkdin:https://www.linkedin.com/in/chinku-singh-832949309/
-
-
-
-
+<!-- Carousel and other content -->
+Follow me on  
+Instagram: https://www.instagram.com/chinku4841  
+LinkedIn: https://www.linkedin.com/in/chinku-singh-832949309/
 
 <div class="carousel">
+ <div class="carousel">
     <div class="carousel-item">
         <div class="carousel-box">
             <div class="title">Hi 👋</div>
@@ -114,15 +149,27 @@ linkdin:https://www.linkedin.com/in/chinku-singh-832949309/
 	</div>
 </div>
 
+</div>
 
+<!-- Floating Social Icons -->
+<div class="social-icons">
+  <a href="https://www.instagram.com/chinku4841" class="instagram" target="_blank" aria-label="Instagram">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <path d="M224,202.7A53.3,53.3,0,1,0,277.3,256,53.38,53.38,0,0,0,224,202.7Zm124.71-41a54,54,0,0,0-30.18-30.18C296.41,122.67,224,122.67,224,122.67s-72.41,0-94.53,8.83a54,54,0,0,0-30.18,30.18c-8.83,22.12-8.83,68.55-8.83,68.55s0,46.43,8.83,68.55a54,54,0,0,0,30.18,30.18c22.12,8.83,94.53,8.83,94.53,8.83s72.41,0,94.53-8.83a54,54,0,0,0,30.18-30.18c8.83-22.12,8.83-68.55,8.83-68.55S357.54,183.79,348.71,161.67ZM224,338a82,82,0,1,1,82-82A82,82,0,0,1,224,338Zm85.33-148.21a19.2,19.2,0,1,1,19.2-19.2A19.19,19.19,0,0,1,309.33,189.79ZM398.8,80A48,48,0,0,0,368,49.2C346.64,40,278.51,40,224,40S101.36,40,80,49.2A48,48,0,0,0,49.2,80C40,101.36,40,169.49,40,224s0,122.64,9.2,144A48,48,0,0,0,80,398.8c21.36,9.2,89.49,9.2,144,9.2s122.64,0,144-9.2A48,48,0,0,0,398.8,368c9.2-21.36,9.2-89.49,9.2-144S408,101.36,398.8,80Z"/>
+    </svg>
+  </a>
 
+  <a href="https://www.linkedin.com/in/chinku-singh-832949309/" class="linkedin" target="_blank" aria-label="LinkedIn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <path d="M100.28 448H7.4V148.9h92.88zm-46.44-340a53.8 53.8 0 1 1 53.8-53.8 53.8 53.8 0 0 1-53.8 53.8zM447.9 448h-92.68V302.4c0-34.7-12.42-58.4-43.45-58.4-23.7 0-37.8 15.9-44 31.3-2.3 5.5-2.9 13.1-2.9 20.8V448h-92.78s1.2-271.8 0-299.1h92.68v42.4a92.08 92.08 0 0 1 83.5-46c60.9 0 106.6 39.8 106.6 125.3V448z"/>
+    </svg>
+  </a>
+</div>
+
+<!-- Cursors and scripts -->
 <div class="cursor"></div>
 <div class="cursor cursor2"></div>
-<!-- partial -->
-<script src="script.js"></script>
 
-</body>
-<!-- partial -->
 <script src="script.js"></script>
 
 </body>
